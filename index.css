@@ -1,0 +1,20 @@
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+input,
+button,
+select {
+  font-family: "Roboto";
+}
+
+.label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.button-enviar {
+  padding: 18px;
+  min-width: 186px;
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script async src="./index.js"></script>
+  </head>
+  <body>
+    <form class="contac-form">
+      <label class="label">
+        <div>Nombre</div>
+        <input name="nombre" type="text" />
+      </label>
+      <label class="label">
+        <div>De lo aprendido hasta ahora, ¿qué tema te gustó más?</div>
+        <select name="tema-fav">
+          <option value="1">Clases</option>
+          <option value="2">TypeScript</option>
+          <option value="3">JavaScript</option>
+          <option value="4">Terminal</option>
+        </select>
+      </label>
+      <label class="label">
+        <div>Preferís estudiar</div>
+        <div>
+          <input name="study-fav" type="radio" value="dia" />
+          De dia
+        </div>
+        <div>
+          <input name="study-fav" type="radio" value="noche" />
+          De noche
+        </div>
+      </label>
+      <label class="label">
+        <div>¿Cuales fueron los temas más complejos hasta ahora?</div>
+        <div>
+          <input name="most-diff-subjects" type="checkbox" value="TypeScript" />
+          TypeScript
+        </div>
+        <div>
+          <input name="most-diff-subjects" type="checkbox" value="Promesas" />
+          Promesas
+        </div>
+        <div>
+          <input name="most-diff-subjects" type="checkbox" value="Clases" />
+          Clases
+        </div>
+        <div>
+          <input name="most-diff-subjects" type="checkbox" value="Funciones" />
+          Funciones
+        </div>
+      </label>
+      <button class="button-enviar">Enviar</button>
+    </form>
+  </body>
+</html>
